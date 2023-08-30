@@ -1,0 +1,45 @@
+= Training app
+
+== Setup
+
+=== Requires:
+===============================
+MacOS: link:https://www.rust-lang.org/tools/install[Rust]; `nightly preffered` +
+Linux: link:https://tauri.app/v1/guides/getting-started/prerequisites#setting-up-linux[Tauri setup]; follow library install commands for your distro
+===============================
+
+==== Fetches and installs depends:
+----
+make depends
+----
+
+==== Compiles and hot-reloads for development
+----
+make dev
+----
+
+==== Compiles and minifies with Tauri + Vite
+----
+make build-tauri
+----
+
+==== Compiles and minifies with just Vite
+----
+make build-vite
+----
+
+==== Compiles a build with some dev tool capability
+----
+make build-debug
+----
+
+==== Removes builds and dependancies
+----
+make clean-all
+----
+
+=== Project purpose:
+- test component libraries in a safe sandbox before implementation to production app
+- test and diagnose issues with dependancies during version updates
+- trial run new paradigms without touching large, difficult to change features
+- new developer training

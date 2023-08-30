@@ -1,0 +1,13 @@
+{
+  "name": "devtools",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "./node_modules/.bin/vue-devtools"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@vue/devtools": "^6.5.0"
+  }
+}

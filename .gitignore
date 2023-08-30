@@ -8,9 +8,8 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-dist
-dist-ssr
-*.local
+/dist/
+/src-tauri/target
 
 # Editor directories and files
 .vscode/*

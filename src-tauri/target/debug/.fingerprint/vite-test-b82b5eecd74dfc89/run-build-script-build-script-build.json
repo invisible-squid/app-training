@@ -1,1 +1,0 @@
-{"rustc":1723872115175191599,"features":"","target":0,"profile":0,"path":0,"deps":[[5360961192713445738,"build_script_build",false,13884127815114379324]],"local":[{"RerunIfChanged":{"output":"debug/build/vite-test-b82b5eecd74dfc89/output","paths":["tauri.conf.json"]}},{"RerunIfEnvChanged":{"var":"TAURI_CONFIG","val":null}}],"rustflags":[],"metadata":0,"config":0,"compile_kind":0}
